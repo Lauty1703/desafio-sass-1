@@ -1,0 +1,34 @@
+#box-cards{
+	.title-productos{
+		font-weight: 700;
+ 		font-size: 4.3rem;
+ 		font-family: 'Roboto', sans-serif;
+	}
+	img{
+		height: 200px;
+	}
+	#productos{
+		margin-top: 5rem;
+		.card{
+			box-shadow:$shadowCard;
+ 		
+		}
+		.card:hover{
+			cursor: pointer;
+ 			transform: translateY(-10px);
+ 			transition: 1s;
+		}
+		.card-title{
+			font-size: 1.7rem;
+ 			font-weight: 700;
+		}
+		.card-text{
+		 	font-size: 1.2rem;
+		}
+		.text-btn-a{
+			font-size: 1.8rem;
+		}
+
+	}
+	
+}
