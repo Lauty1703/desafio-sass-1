@@ -1,7 +1,6 @@
 #box-cards{
 	.title-productos{
-		font-weight: 700;
- 		font-size: 4.3rem;
+		@include tamañoTitulo;
  		font-family: 'Roboto', sans-serif;
 	}
 	img{
@@ -30,5 +29,7 @@
 		}
 
 	}
-	
+	.text-descripcion-ofertas{
+		font-size: 1.8rem;
+	}
 }
