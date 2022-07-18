@@ -1,6 +1,65 @@
-@mixin tamañoTitulo {
+@mixin FontSizeTitulo {
   font-size: 4.1rem;
   font-weight: 600;
 
 
- }
+}
+
+@mixin card {
+  #box-cards {
+    .title-productos {
+      @include FontSizeTitulo;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    #productos {
+      margin-top: 5rem;
+
+      .card { 
+        width: 25rem;
+
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+        box-shadow: $shadowCard;
+
+        .img-carousel {
+          border-top-right-radius: 20px;
+          border-top-left-radius: 20px;
+        }
+
+      }
+
+      .card:hover {
+        cursor: pointer;
+        transform: translateY(-10px);
+        transition: 1s;
+      }
+
+      .card-title {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+
+      .card-text {
+        font-size: 2rem;
+      }
+
+      .text-btn-a {
+        font-size: 1.8rem;
+      }
+
+      .bg-color-btn-inicio {
+        background-color: $bg-ColorCardInicio;
+        color: $colorCard;
+      }
+
+    }
+
+    .text-descripcion-ofertas {
+      font-size: 2rem;
+      font-weight: 600;
+    }
+  }
+
+
+}

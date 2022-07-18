@@ -36,7 +36,7 @@ html {
     color: #EAEAEA; }
     #botonera a:hover {
       transform: translateY(-1px);
-      color: #FCBA80 !important;
+      color: #EE5252 !important;
       transition: .2s; }
 
 .bg-color-page {
@@ -74,27 +74,87 @@ html {
   font-weight: 600;
   font-family: 'Roboto', sans-serif; }
 
-#box-cards img {
-  height: 200px; }
-
 #box-cards #productos {
   margin-top: 5rem; }
   #box-cards #productos .card {
+    width: 25rem;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
     box-shadow: 7px 10px 12px -2px rgba(0, 0, 0, 0.35); }
+    #box-cards #productos .card .img-carousel {
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px; }
   #box-cards #productos .card:hover {
     cursor: pointer;
     transform: translateY(-10px);
     transition: 1s; }
   #box-cards #productos .card-title {
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: 700; }
   #box-cards #productos .card-text {
-    font-size: 1.2rem; }
+    font-size: 2rem; }
   #box-cards #productos .text-btn-a {
     font-size: 1.8rem; }
+  #box-cards #productos .bg-color-btn-inicio {
+    background-color: #FA7171;
+    color: #F1EAEA; }
 
 #box-cards .text-descripcion-ofertas {
-  font-size: 1.8rem; }
+  font-size: 2rem;
+  font-weight: 600; }
+
+.bg-color-page {
+  background: linear-gradient(90deg, #02001d 0%, #ae0d01 100%); }
+
+#acordion-inicio {
+  margin-top: 7rem;
+  padding: 10px 0px; }
+  #acordion-inicio h2 button {
+    font-size: 3rem; }
+  #acordion-inicio .bg-color-btn {
+    background-color: #E09797;
+    color: #F1EAEA; }
+  #acordion-inicio .accordion-body {
+    font-size: 2rem; }
+
+.btn-ofertas {
+  background-color: #E85175;
+  color: #fff; }
+  .btn-ofertas #box-cards .title-productos {
+    font-size: 4.1rem;
+    font-weight: 600;
+    font-family: 'Roboto', sans-serif; }
+  .btn-ofertas #box-cards #productos {
+    margin-top: 5rem; }
+    .btn-ofertas #box-cards #productos .card {
+      width: 25rem;
+      border-top-right-radius: 20px;
+      border-top-left-radius: 20px;
+      box-shadow: 7px 10px 12px -2px rgba(0, 0, 0, 0.35); }
+      .btn-ofertas #box-cards #productos .card .img-carousel {
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px; }
+    .btn-ofertas #box-cards #productos .card:hover {
+      cursor: pointer;
+      transform: translateY(-10px);
+      transition: 1s; }
+    .btn-ofertas #box-cards #productos .card-title {
+      font-size: 2rem;
+      font-weight: 700; }
+    .btn-ofertas #box-cards #productos .card-text {
+      font-size: 2rem; }
+    .btn-ofertas #box-cards #productos .text-btn-a {
+      font-size: 1.8rem; }
+    .btn-ofertas #box-cards #productos .bg-color-btn-inicio {
+      background-color: #FA7171;
+      color: #F1EAEA; }
+  .btn-ofertas #box-cards .text-descripcion-ofertas {
+    font-size: 2rem;
+    font-weight: 600; }
+  .btn-ofertas:hover {
+    color: #fff;
+    background-color: #cf4444;
+    border: 1px solid #FFDFDF; }
 
 #contacto .title-contacto {
   font-size: 4.1rem;
@@ -135,23 +195,35 @@ html {
   font-size: 1.9rem; }
 
 #ubicacion .btn-ubicacion {
+  background-color: #E85175;
+  color: #fff;
   font-size: 2rem; }
 
 #ubicacion .iconos {
   font-size: 4rem; }
+
+#ubicacion .fas {
+  color: #E85175; }
+
+#ubicacion .btn-color {
+  background: #ff7700;
+  background: linear-gradient(90deg, #ff7700 0%, #953d0e 100%);
+  background: -moz-linear-gradient(90deg, #ff7700 0%, #953d0e 100%);
+  background: -webkit-linear-gradient(90deg, #ff7700 0%, #953d0e 100%); }
 
 #ubicacion .text-icono {
   font-size: 1.4rem; }
 
 footer {
   margin-top: 50px;
-  background-color: #1E1B1B; }
-  footer .logo {
-    width: 50px;
-    height: 50px;
-    border-radius: 10px; }
+  background: #020024;
+  background: linear-gradient(90deg, #020024 0%, rgba(133, 35, 35, 0.975525) 100%); }
   footer .title-footer {
     font-size: 4.5rem; }
+    footer .title-footer .logo {
+      width: 50px;
+      height: 50px;
+      border-radius: 10px; }
   footer .subtitulo-footer {
     font-size: 2rem;
     color: #c9c9c9; }
